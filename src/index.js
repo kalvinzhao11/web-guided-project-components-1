@@ -68,10 +68,6 @@ function makePanel(panelDataObj/* what data does the panel need? */) {
   closeButton.className = 'panel-btn-close hide-btn'
   panelContent.className = 'panel-content'
 
-  debugger
-
-  console.log('the funciton is running!!!')
-
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
 
@@ -83,9 +79,9 @@ function makePanel(panelDataObj/* what data does the panel need? */) {
 
 
   // don't forget to return the panel!
-  return null
+  return panel
 }
-makePanel()
+console.log(makePanel())
 
 // TASK 10- Loop through the panelData in the data folder
 //  creating panels for each content and title,
