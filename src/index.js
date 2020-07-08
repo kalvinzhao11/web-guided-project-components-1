@@ -89,7 +89,7 @@ console.log(makePanel({ title: 'foo', content: 'bar' }))
 // TASK 10- Loop through the panelData in the data folder
 //  creating panels for each content and title,
 //  and append them to the DOM
-
+// panelData.forEach(object => { stuff })
 
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
