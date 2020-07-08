@@ -90,9 +90,13 @@ console.log(makePanel({ title: 'foo', content: 'bar' }))
 //  creating panels for each content and title,
 //  and append them to the DOM
 // panelData.forEach(object => { 
-      // A- make a panel with the object
-      // B- append the panel to the accordion from step 3
+// A- make a panel with the object
+// B- append the panel to the accordion from step 3
 // })
+panelData.forEach(object => {
+  const theActualPanelElements = makePanel(object)
+  accordion.appendChild(theActualPanelElements)
+})
 
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
