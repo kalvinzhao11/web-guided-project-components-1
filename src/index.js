@@ -62,6 +62,11 @@ function makePanel(panelDataObj/* what data does the panel need? */) {
 
   // TASK 7- Add proper class names to our elements (See index.html for reference)
   panel.className = 'panel'
+  panelBar.className = 'panel-bar'
+  panelButtons.className = 'panel-buttons'
+  openButton.className = 'panel-btn-open'
+  closeButton.className = 'panel-btn-close hide-btn'
+  panelContent.className = 'panel-content'
 
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
