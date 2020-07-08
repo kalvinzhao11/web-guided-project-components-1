@@ -31,13 +31,13 @@ function makePanel(panelDataObj/* what data does the panel need? */) {
 
 
   // TASK 5- Instantiate all the elements needed for a panel
-  const panel = null
-  const panelBar = null
-  const panelContent = null
-  const panelTitle = null
-  const panelButtons = null
-  const openButton = null
-  const closeButton = null
+  const panel = document.createElement('div')
+  const panelBar = document.createElement('div')
+  const panelContent = document.createElement('div')
+  const panelTitle = document.createElement('h3')
+  const panelButtons = document.createElement('div')
+  const openButton = document.createElement('button')
+  const closeButton = document.createElement('button')
 
 
   // TASK 6- Setup the structure of our elements
