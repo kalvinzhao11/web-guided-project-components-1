@@ -102,6 +102,18 @@ panelData.forEach(object => {
   accordion.appendChild(theActualPanelElements)
 })
 
+// alternative
+const arrayOfHTMLPanels = panelData.map(object => {
+  const newPanel = makePanel(object)
+  return newPanel
+})
+
+arrayOfHTMLPanels.forEach(htmlPanel => {
+  accordion.appendChild(htmlPanel)
+})
+
+console.log(arrayOfHTMLPanels)
+
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
 // and returns an anchor tag with the right href, class and textContent.
