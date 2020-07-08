@@ -49,18 +49,19 @@ function makePanel(panelDataObj/* what data does the panel need? */) {
           <button></button> // openButton
           <button></button> // closeButton
         </div>
-      </div>
-      <div></div>           // panelContent
-    </div>
-  */
+        </div>
+        <div></div>           // panelContent
+        </div>
+        */
   panel.appendChild(panelBar)
   panel.appendChild(panelContent)
   panelBar.appendChild(panelTitle)
   panelBar.appendChild(panelButtons)
   panelButtons.appendChild(openButton)
   panelButtons.appendChild(closeButton)
-  // TASK 7- Add proper class names to our elements (See index.html for reference)
 
+  // TASK 7- Add proper class names to our elements (See index.html for reference)
+  panel.className = 'panel'
 
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
