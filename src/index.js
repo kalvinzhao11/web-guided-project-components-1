@@ -70,6 +70,10 @@ function makePanel(panelDataObj/* what data does the panel need? */) {
 
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
+  panelTitle.textContent = panelDataObj.title
+  panelContent.textContent = panelDataObj.content
+  openButton.textContent = open
+  closeButton.textContent = close
 
 
   // TASK 9- When the 'open' or 'close' buttons are clicked, the content is toggled on/off:
