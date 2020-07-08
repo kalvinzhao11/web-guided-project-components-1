@@ -1,7 +1,18 @@
 // TASK 1- Import the data we need to "hydrate" our component
 //  On the one hand, the default export from data/panelData.js
 //  On the other hand, the default export from data/constants.js
+import panelData from './data/panelData'
+import constants from './data/constants'
 
+// const constants = {
+//   open: '\u25bc',
+//   close: '\u25b2',
+// }
+
+// const open = constants.open
+// const close = constants.close
+// there is a shorter way to pull out open and close
+const { open, close } = constants
 
 // TASK 2- Verify our imports using log statements
 console.log() // log the panelData
